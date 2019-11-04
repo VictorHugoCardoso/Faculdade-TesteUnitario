@@ -64,5 +64,4 @@ class sistemaAcademico(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="/results"))
-
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="/Users/victo/Desktop"))
