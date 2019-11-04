@@ -8,9 +8,9 @@ class sistemaAcademico(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.driver = webdriver.Chrome("C:/Users/victo/Documents/Github/testeUnitario/chromedriver.exe",options=option)
         option.add_argument('headless')
         option = webdriver.ChromeOptions()
+        cls.driver = webdriver.Chrome("C:/Users/victo/Documents/Github/testeUnitario/chromedriver.exe",options=option)
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
 
